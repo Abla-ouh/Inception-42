@@ -50,6 +50,8 @@ Step into "Inception" – where Docker's power orchestrates a symphony of servic
 
 **`Service`** : In Docker Compose, a service refers to a container and its configuration settings defined in the Compose file. Services define how a container should be built, run, and connected to other containers.
 
+Here is the corresponding Docker-compose file for inception project : 
+
 ![h](https://github.com/Abla-ouh/Inception-42/blob/main/Screen%20Shot%202023-08-07%20at%206.55.13%20PM.png)
 
 ### Project Directory Structure
