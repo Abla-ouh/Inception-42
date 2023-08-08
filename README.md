@@ -16,7 +16,7 @@ Within this mission, a focal point emerges. A sentinel, **NGINX**, stands guard,
 Yet, the SAGA continues! **WordPress** and **MariaDB** inscribe their legacy within dedicated volumes, epitomizing data's endurance.
 Step into "Inception" – where Docker's power orchestrates a symphony of services. Welcome to a journey where containers hold secrets, networks weave connections, and volumes etch persistence. Join us on this voyage of Docker discovery and mastery.
 
-### Architecture :
+### Architecture and Requirements :
 - A Docker container that contains NGINX with TLSv1.2 or TLSv1.3 only.
 - A Docker container that contains WordPress + php-fpm (it must be installed and configured) only without nginx.
 - A Docker container that contains MariaDB only without nginx.
@@ -94,7 +94,7 @@ Follow these steps to set up and execute the Docker project on your local machin
 
 Once the project is up and running, you can access the services through your web browser.
 
--   **Wordpress Website**: Open your browser and navigate to `https://login.42.fr` (replace `login` with your actual login if you are a 42 school student otherwise change it just to `https://localhost` ).
+-   **WordPress Website**: Open your browser and navigate to `https://login.42.fr` (replace `login` with your actual login if you are a 42 school student otherwise change it just to `https://localhost` ).
 ### Stopping the Project
 
 To stop and remove the project's containers, networks, and volumes, use the following command:
